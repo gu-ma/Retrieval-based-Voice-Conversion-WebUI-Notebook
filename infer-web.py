@@ -53,6 +53,7 @@ torch.manual_seed(114514)
 
 
 config = Config()
+config.iscolab = True
 vc = VC(config)
 
 

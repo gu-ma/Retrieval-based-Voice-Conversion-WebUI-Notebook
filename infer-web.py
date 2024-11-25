@@ -32,7 +32,7 @@ import threading
 import shutil
 import logging
 
-os.environ['MKL_SERVICE_FORCE_INTEL'] = '1'
+os.environ["MKL_SERVICE_FORCE_INTEL"] = "1"
 
 logging.getLogger("numba").setLevel(logging.WARNING)
 logging.getLogger("httpx").setLevel(logging.WARNING)
